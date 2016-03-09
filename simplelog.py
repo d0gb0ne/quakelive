@@ -1,3 +1,9 @@
+# Logs nickname : steamid64 : ip address to ~/.quakelive/chatlogs/simplelog.txt
+# add the following lines to your server.cfg
+# set qlx_simplelog (The maximum number of logs to keep around. If set to 0, no maximum is enforced. Default: 0)
+# set qlx_simplelogSize (The maximum size of a log in bytes before it starts with a new one. Default: 5000000 (5 MB) )
+
+
 import minqlx
 import logging
 import os.path
