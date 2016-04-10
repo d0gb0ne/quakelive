@@ -12,7 +12,7 @@
 # Uses:
 # - qlx_pinfo_display_auto "0"
 # - qlx_pinfo_show_deactivated = "1"
-#       ^ (If this is 1 then a warning will be shown of players who are deactivated on qlstats)
+#       ^ (If this is 1 then a warning will be shown of players who are deactivated on qlstats and be kicked)
 
 import minqlx
 import requests
