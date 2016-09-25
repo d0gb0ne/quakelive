@@ -11,6 +11,9 @@ echo "Total server uptime" $(ps -eo cmd,etime |grep qzeroded.x64 |awk '{print $2
 #kill the server & screen
 screen -X -S quakelive quit
 
+# wait 10 seconds
+sleep 10
+
 #navigate to the qlds directory
 cd ..
 
