@@ -10,12 +10,13 @@ echo "Total server uptime" $(ps -eo cmd,etime |grep qzeroded.x64 |awk '{print $2
 
 #kill the server & screen
 screen -X -S quakelive quit
-
-# wait 10 seconds
-sleep 10
+killall -9 qzeroded.x64
 
 #navigate to the qlds directory
 cd ..
+
+#wait 1 seconds
+sleep 1
 
 #reboot the server and update the log
 echo "Starting quake server!" $(date) >> baseq3/cron.log
