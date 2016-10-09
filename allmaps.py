@@ -3,7 +3,7 @@ import minqlx
 
 class allmaps(minqlx.Plugin):
     def __init__(self):
-        self.add_command(("allmaps"), self.cmd_allmaps)
+        self.add_command(("allmaps", "listmaps"), self.cmd_allmaps)
 
     def cmd_allmaps(self, player, msg, channel):
         player.tell("oxodm102_b1: Campgrounds Redux\n"
