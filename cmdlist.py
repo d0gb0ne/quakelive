@@ -21,5 +21,4 @@ class cmdlist(minqlx.Plugin):
                     "^5!here                    ^3- ^7Mark yourself as Playing/back\n"
                     "^5")
         return minqlx.RET_STOP_ALL
-        
-        
+
